@@ -1,0 +1,167 @@
+.pokemon .name {
+    font-weight: 900;
+    font-size: larger;
+    text-transform: capitalize;
+}
+
+
+.pokemons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+} 
+
+.pokemons .pokemon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 40%;
+    height: 150px;
+    padding: 1rem;
+    margin: 0 0 0.5rem 0;
+    color: white;
+    border-radius: 1rem;
+}    
+
+.img-type {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.types li {
+    list-style: none;
+    max-height: 20px;
+    margin: 0.2rem;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    filter: brightness(1.2);
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: flex-end;
+    align-items: flex-end;
+    padding: 0px;
+}
+
+.img {
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.img .img-pokemon{
+    align-self: flex-start;
+    max-width: 100%;
+    flex-wrap: nowrap;
+    object-fit:contain;
+}
+
+.pokemon .number {
+    align-self: flex-end;
+    color: rgb(255, 255, 255);
+}
+
+.grass {
+    background-color: #33b688;
+}
+
+
+.fire {
+    background-color: #e23f17;
+}
+
+.water {
+    background-color: rgb(39, 47, 206);
+}
+
+.poison {
+    background-color: rgb(134, 39, 229);
+}
+
+.bug {
+    background-color: rgb(149, 178, 7);
+}
+
+.electric {
+    background-color: rgb(202, 192, 4);
+}
+
+.flying {
+        background-color: rgb(69, 142, 172);
+}
+
+.ice {
+    background-color: rgb(5, 175, 187);
+}
+
+.normal {
+    background-color: rgb(105, 107, 107);
+}
+
+.fighting {
+    background-color: #9b1a1a;
+}
+
+.ground {
+    background-color: #ae7f05;
+}
+
+.psychic {
+    background-color: rgb(112, 3, 100);
+}
+
+.rock {
+    background-color: rgb(55, 55, 55);
+}
+
+.ghost {
+    background-color: rgb(41, 0, 84);
+}
+
+.dragon {
+    background-color: #00473b;
+}
+
+.steel {
+    background-color: #514f6d;
+}
+
+.fairy {
+    background-color: #e217c0;
+}
+
+.dark {
+    background-color: #1b1b1b;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    border: none;
+    padding: 0.5rem;
+    background-color: rgb(213, 187, 58);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
